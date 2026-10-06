@@ -1,0 +1,8 @@
+# Deploy no Render (plano gratuito): conecte o repositório em https://dashboard.render.com/blueprints
+services:
+  - type: web
+    name: pokedex
+    runtime: docker
+    plan: free
+    healthCheckPath: /actuator/health
+    autoDeploy: true
