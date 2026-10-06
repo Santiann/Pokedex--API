@@ -1,0 +1,8 @@
+services:
+  pokedex:
+    build: .
+    image: pokedex:latest
+    container_name: pokedex
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

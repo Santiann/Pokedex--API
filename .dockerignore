@@ -1,0 +1,9 @@
+.git
+.github
+**/node_modules
+**/target
+web/dist
+legacy
+docs
+*.md
+compose.yaml
